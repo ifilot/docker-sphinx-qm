@@ -21,11 +21,11 @@ quantum-chemical packages.
 Ensure a copy of the docker image is present
 
 ```bash
-docker pull ghcr.io/ifilot/sphinx-qm:v0.1.0
+docker pull ghcr.io/ifilot/sphinx-qm:v0.2.0
 ```
 
 To compile the Sphinx documentation locally, run
 
 ```bash
-docker run --volume ./docs:/data/docs --workdir /data/docs -it ghcr.io/ifilot/sphinx-qm:v0.1.0 make html
+docker run --volume ./docs:/data/docs --workdir /data/docs -it ghcr.io/ifilot/sphinx-qm:v0.2.0 make html
 ```
