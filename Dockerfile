@@ -1,4 +1,4 @@
-FROM ghcr.io/ifilot/sphinx:v0.4.0
+FROM ghcr.io/ifilot/sphinx:v0.5.0
 
 ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG C.UTF-8
