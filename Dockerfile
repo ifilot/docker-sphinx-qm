@@ -13,6 +13,8 @@ RUN /data/env/bin/python3 -m pip install \
 	pytessel \
 	sphecerix \
 	pylebedev \
-	mendeleev
+	mendeleev \
+	pydft \
+	tqdm
 
 ENV PATH="/data/env/bin:$PATH"
