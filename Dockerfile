@@ -4,7 +4,6 @@ ENV DEBIAN_FRONTEND=noninteractive
 ENV LANG C.UTF-8
 ENV TERM xterm
 
-USER sphinx
 WORKDIR "/data"
 
 # create virtual environment
